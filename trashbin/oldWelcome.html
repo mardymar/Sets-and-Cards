@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../assets/angularjs/angular.js"></script>
+    <script src="../assets/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    <script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+    <link rel="stylesheet" href="../assets/bootstrap-3.3.5-dist/css/bootstrap.css" type="text/css"/>
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <title>Welcome</title>
+</head>
+<body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item" href="../index.html">Log Out</a>
+            <a class="blog-nav-item active">Welcome</a>
+        </nav>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 blog-main">
+            <div class="main-container">
+                <form class="form-signin" role="form">
+                    <h2 class="form-signin-heading" id="login-greeting">Enter Game Score</h2>
+                    <input type="text" name="Player Name" class="form-control" placeholder="Player Name" required="" autofocus="">
+                    <input type="number" name="Score" class="form-control" placeholder="Score" required="">
+                    <input type="checkbox" id = "myCheckbox" value = "true"> Cheat Mode<br>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+
+<script>Parse.initialize("yALz7vNO9fuoFoq54npm2CkFbF7TX96sduJsINse", "cDRWIAeN8HQYG1b1pUEc1gVtg5lNmsOTbNpEEXy4");</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="oldWelcome.js"></script>
+</body>
+</html>
