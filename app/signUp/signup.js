@@ -1,6 +1,3 @@
-/**
- * Created by Marc on 11/14/2015.
- */
 
 myApp.controller('signupController', ['$scope', '$q', function($scope, $q) {
 
@@ -28,7 +25,6 @@ function createUserToParse(username, password, email){
     user.signUp(null, {
         success: function (user) {
             // Hooray! Let them use the app now.
-            alert("User created");
             location.href='../newSet/newSet.html';
         },
         error: function (user, error) {

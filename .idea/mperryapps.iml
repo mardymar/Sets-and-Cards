@@ -5,5 +5,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="checklist-model" level="application" />
+    <orderEntry type="library" name="angular-animate" level="application" />
+    <orderEntry type="library" name="ui-bootstrap-tpls-0.14.3" level="application" />
+    <orderEntry type="library" name="angular-modal-service" level="application" />
   </component>
 </module>

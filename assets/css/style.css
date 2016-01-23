@@ -20,8 +20,14 @@ h6, .h6 {
     color: #333;
 }
 
+#login-greeting{
+    text-align: center;
+    color: #B4D7D7;
+}
+
 #sidebar-wrapper {
     background-color: #4B8A8A;
+    margin-bottom: 200px;
 }
 
 #mast {
@@ -75,9 +81,51 @@ h6, .h6 {
     border-top: 1px solid #e5e5e5;
 }
 
-/*
- * Override Bootstrap's default container.
- */
+.modalText {
+    color: #0f0f0f;
+}
+
+
+#speller-box {
+    vertical-align: top;
+    color: #2271be;
+    float: right;
+
+}
+
+.speller-blue:focus {
+    border: 2px solid #2271be;
+    box-shadow: 0 0 12px #2271be;
+}
+
+.speller-blue {
+    border: 2px solid #2271be;
+    box-shadow: 0 0 12px #2271be;
+}
+
+.speller-red:focus {
+    border: 2px solid #CC2F10;
+    box-shadow: 0 0 12px #CC2F10;
+}
+
+.speller-red {
+    border: 2px solid #CC2F10;
+    box-shadow: 0 0 12px #CC2F10;
+}
+
+.speller-green:focus {
+    border: 2px solid #A6FF00;
+    box-shadow: 0 0 12px #A6FF00;
+}
+
+.speller-green {
+    border: 2px solid #A6FF00;
+    box-shadow: 0 0 12px #A6FF00;
+}
+
+#viewTblRow {
+    vertical-align: middle;
+}
 
 @media (min-width: 1200px) {
     .container {
@@ -85,12 +133,14 @@ h6, .h6 {
     }
 }
 
+#flashCard {
+    padding-top: 50px;
 
-/*
- * Masthead for nav
- */
+}
 
-
+#speller-input {
+    padding-top: 10px;
+}
 
 /* Nav links */
 
@@ -243,9 +293,7 @@ h6, .h6 {
     border-top-right-radius: 0;
 }
 
-#login-greeting{
-    text-align: center;
-}
+
 
 .form-signup {
     max-width: 330px;

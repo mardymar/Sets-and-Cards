@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="assets/angularjs/angular.js"></script>
-    <script src="assets/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    <script src="assets/angularjs/angular.min.js"></script>
     <script src="//www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+    <script>Parse.initialize("yALz7vNO9fuoFoq54npm2CkFbF7TX96sduJsINse", "cDRWIAeN8HQYG1b1pUEc1gVtg5lNmsOTbNpEEXy4");</script>
     <link rel="stylesheet" href="assets/bootstrap-3.3.5-dist/css/bootstrap.css" type="text/css"/>
     <link href="assets/css/style.css" rel="stylesheet">
 
     <title>Login</title>
 </head>
-<body ng-app="myApp">
+<body data-ng-app="myApp">
 <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
@@ -24,7 +24,7 @@
         <div class="col-sm-12 blog-main">
             <div class="main-container">
 
-                    <form class="form-signin" role="form" ng-submit = "submit()">
+                    <form class="form-signin" role="form" data-ng-submit = "submit()">
                         <h2 class="form-signin-heading" id="login-greeting">Please Log In</h2>
                         <input type="text" name="username" ng-model="username" class="form-control" placeholder="Username" required="" autofocus="">
                         <input type="password" name="password" ng-model="password" class="form-control" placeholder="Password" required="">
@@ -34,11 +34,7 @@
             </div>
         </div>
     </div>
-    <!-- /.row -->
 </div>
-<!-- /.container -->
-
-<script>Parse.initialize("yALz7vNO9fuoFoq54npm2CkFbF7TX96sduJsINse", "cDRWIAeN8HQYG1b1pUEc1gVtg5lNmsOTbNpEEXy4");</script>
 <script src="app/myApp.js"></script>
 <script src="app/login/index.js"></script>
 </body>

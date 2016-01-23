@@ -1,7 +1,12 @@
-/**
- * Created by Marc on 11/14/2015.
- */
+
 myApp.controller('loginController', ['$scope', '$q', function($scope, $q) {
+
+    if ( Parse.User.current() ) {
+        Parse.User.logOut();
+        // check if really logged out
+        if (Parse.User.current())
+            alert("Failed to log out!");
+    }
 
     $scope.username = '';
     $scope.password = '';
